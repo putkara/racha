@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>კვირიკეწმინდა (ყოფ. კორტი)</title>
+  <title>კვირიკეწმინდა (ყოფ. კორტი) / Kviriketsminda (Formerly Korti)</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -11,19 +11,21 @@
 <body>
   <header>
     <div class="container">
-      <h1>კვირიკეწმინდა (ყოფ. კორტი)</h1>
+      <h1 id="header-title">კვირიკეწმინდა (ყოფ. კორტი)</h1>
       <nav>
         <button class="burger-menu" aria-label="Toggle menu">
           <i class="fas fa-bars"></i>
         </button>
         <ul class="nav-links">
-          <li><a href="#about">შესახებ</a></li>
-          <li><a href="#history">ისტორია</a></li>
-          <li><a href="#church">კვირიკეწმინდის ეკლესია</a></li>
-          <li><a href="#demographics">დემოგრაფია</a></li>
-          <li><a href="#gallery">გალერეა</a></li>
-          <li><a href="#map">რუკა</a></li>
-         
+          <li><a href="#about" data-translate="about">შესახებ</a></li>
+          <li><a href="#history" data-translate="history">ისტორია</a></li>
+          <li><a href="#church" data-translate="church">კვირიკეწმინდის ეკლესია</a></li>
+          <li><a href="#demographics" data-translate="demographics">დემოგრაფია</a></li>
+          <li><a href="#gallery" data-translate="gallery">გალერეა</a></li>
+          <li><a href="#map" data-translate="map">რუკა</a></li>
+          <li><button id="translate-btn" aria-label="Translate to English">
+            <i class="fas fa-globe"></i> EN
+          </button></li>
         </ul>
       </nav>
     </div>
@@ -31,38 +33,36 @@
 
   <section id="about" class="section">
     <div class="container">
-      <h2>შესახებ</h2>
-      <p>კვირიკეწმინდა (ყოფ. კორტი) — სოფელი საქართველოში, რაჭა-ლეჩხუმისა და ქვემო სვანეთის მხარის ამბროლაურის მუნიციპალიტეტში (ველევის თემი). მდებარეობს რაჭის ქედის ჩრდილოეთ კალთაზე, მდინარე ხოტეურის ხეობაში. ზღვის დონიდან 1040 მეტრი, ამბროლაურიდან 8 კილომეტრი.</p>
+      <h2 data-translate="about">შესახებ</h2>
+      <p data-translate="about-text">კვირიკეწმინდა (ყოფ. კორტი) — სოფელი საქართველოში, რაჭა-ლეჩხუმისა და ქვემო სვანეთის მხარის ამბროლაურის მუნიციპალიტეტში (ველევის თემი). მდებარეობს რაჭის ქედის ჩრდილოეთ კალთაზე, მდინარე ხოტეურის ხეობაში. ზღვის დონიდან 1040 მეტრი, ამბროლაურიდან 8 კილომეტრი.</p>
     </div>
   </section>
 
   <section id="history" class="section">
     <div class="container">
-      <h2>ისტორია</h2>
-      <p>სოფლის ისტორია ძველი და საინტერესოა. იგი მდებარეობს რაჭის ისტორიულ რეგიონში, რომელიც ცნობილია თავისი უნიკალური კულტურით და ტრადიციებით. სოფელში შემონახულია ძველი ნაგებობები და ეკლესიები, რომლებიც მოგვითხრობენ რეგიონის მდიდარ ისტორიაზე.</p>
+      <h2 data-translate="history">ისტორია</h2>
+      <p data-translate="history-text">სოფლის ისტორია ძველი და საინტერესოა. იგი მდებარეობს რაჭის ისტორიულ რეგიონში, რომელიც ცნობილია თავისი უნიკალური კულტურით და ტრადიციებით. სოფელში შემონახულია ძველი ნაგებობები და ეკლესიები, რომლებიც მოგვითხრობენ რეგიონის მდიდარ ისტორიაზე.</p>
     </div>
   </section>
 
   <section id="church" class="section">
     <div class="container">
-      <h2>კვირიკეწმინდის ეკლესია</h2>
-      <p>კვირიკეწმინდის წმინდა კვირიკესა და ივლიტეს ეკლესია არის სამნავიანი ბაზილიკა, რომელიც აგებულია IX-X საუკუნეებში. ეკლესია ნაგებია თლილი ქვით და კირისაგან. მისი ზომებია 9,25 მეტრი სიგრძეში და 6,4 მეტრი სიგანეში. ეკლესიას აქვს სამი შესასვლელი: სამხრეთით, დასავლეთით და აღმოსავლეთით. ეკლესიის სამხრეთ კედელზე გამოსახულია ჯვარი, რომელიც გარშემორტყმულია ხუცური წარწერებით.</p>
-      <p>ეკლესიის დასავლეთ კედელზე არის წარწერა, რომელიც თარიღდება XVI-XVII საუკუნეებით. ეკლესიის მახლობლად მდებარეობს კვიტაშვილის ციხის ნანგრევები, რომელიც ვახუშტი ბატონიშვილის მიერ იყო მოხსენიებული.</p>
-      <p>ეკლესია დაზიანებული იყო 1991 წლის მიწისძვრის შედეგად, რის გამოც მისი რესტავრაცია განხორციელდა. ეკლესია მნიშვნელოვანი კულტურული მემკვიდრეობის ძეგლია და მისი შესწავლა და დაცვა მნიშვნელოვანია საქართველოს ისტორიისა და კულტურისთვის.</p>
+      <h2 data-translate="church">კვირიკეწმინდის ეკლესია</h2>
+      <p data-translate="church-text">კვირიკეწმინდის წმინდა კვირიკესა და ივლიტეს ეკლესია არის სამნავიანი ბაზილიკა, რომელიც აგებულია IX-X საუკუნეებში. ეკლესია ნაგებია თლილი ქვით და კირისაგან. მისი ზომებია 9,25 მეტრი სიგრძეში და 6,4 მეტრი სიგანეში. ეკლესიას აქვს სამი შესასვლელი: სამხრეთით, დასავლეთით და აღმოსავლეთით. ეკლესიის სამხრეთ კედელზე გამოსახულია ჯვარი, რომელიც გარშემორტყმულია ხუცური წარწერებით.</p>
     </div>
   </section>
 
   <section id="demographics" class="section">
     <div class="container">
-      <h2>დემოგრაფია</h2>
+      <h2 data-translate="demographics">დემოგრაფია</h2>
       <div class="table-container">
         <table>
           <thead>
             <tr>
-              <th>აღწერის წელი</th>
-              <th>მოსახლეობა</th>
-              <th>კაცი</th>
-              <th>ქალი</th>
+              <th data-translate="year">აღწერის წელი</th>
+              <th data-translate="population">მოსახლეობა</th>
+              <th data-translate="male">კაცი</th>
+              <th data-translate="female">ქალი</th>
             </tr>
           </thead>
           <tbody>
@@ -84,19 +84,16 @@
     </div>
   </section>
 
-  
-
   <section id="gallery" class="section">
     <div class="container">
-      <h2>გალერეა</h2>
+      <h2 data-translate="gallery">გალერეა</h2>
       <div class="gallery">
         <img src="01.jpeg" alt="სოფლის ხედი 1">
         <img src="02.jpg" alt="სოფლის ხედი 2">
         <img src="03.jpeg" alt="სოფლის ხედი 3">
         <img src="04.jpeg" alt="სოფლის ხედი 4">
-        <img src="05.jpeg" alt="სოფლის ხედი 4">
+        <img src="05.jpeg" alt="სოფლის ხედი 3">
         <img src="06.jpeg" alt="სოფლის ხედი 4">
-        
         <img src="07.jpeg" alt="სოფლის ხედი 4">
         <img src="08.jpeg" alt="სოფლის ხედი 4">
       </div>
@@ -105,7 +102,7 @@
 
   <section id="map" class="section">
     <div class="container">
-      <h2>რუკა</h2>
+      <h2 data-translate="map">რუკა</h2>
       <div class="map-container">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98731.6311874122!2d43.053920377288215!3d42.48082937336031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405b7b979946a3ff%3A0xf1cdabc842e1ece8!2z4YOZ4YOV4YOY4YOg4YOY4YOZ4YOU4YOs4YOb4YOY4YOc4YOT4YOQ!5e0!3m2!1sen!2sde!4v1738012651094!5m2!1sen!2sde"
@@ -120,19 +117,74 @@
     </div>
   </section>
 
- 
-
   <button id="back-to-top" aria-label="Back to top">
     <i class="fas fa-arrow-up"></i>
   </button>
 
   <footer>
     <div class="container">
-      <p>&copy; 2025 კვირიკეწმინდა (ყოფ. კორტი). ყველა უფლება დაცულია.</p>
+      <p data-translate="footer">&copy; 2025 კვირიკეწმინდა (ყოფ. კორტი). ყველა უფლება დაცულია.</p>
     </div>
   </footer>
 
   <script>
+    // Translation Data
+    const translations = {
+      en: {
+        "about": "About",
+        "history": "History",
+        "church": "Kviriketsminda Church",
+        "demographics": "Demographics",
+        "gallery": "Gallery",
+        "map": "Map",
+        "about-text": "Kviriketsminda (formerly Korti) is a village in Georgia, located in the Ambrolauri Municipality of the Racha-Lechkhumi and Kvemo Svaneti region. It is situated on the northern slope of the Racha Range, in the Khoteura River valley. It is 1040 meters above sea level and 8 kilometers from Ambrolauri.",
+        "history-text": "The history of the village is ancient and fascinating. It is located in the historical region of Racha, known for its unique culture and traditions. The village preserves old buildings and churches that tell the rich history of the region.",
+        "church-text": "The Church of St. Kvirike and Ivlita in Kviriketsminda is a three-nave basilica built in the 9th-10th centuries. The church is made of hewn stone and lime. It measures 9.25 meters in length and 6.4 meters in width. The church has three entrances: south, west, and east. A cross is depicted on the southern wall, surrounded by ancient inscriptions.",
+        "year": "Year",
+        "population": "Population",
+        "male": "Male",
+        "female": "Female",
+        "footer": "© 2025 Kviriketsminda (formerly Korti)."
+      },
+      ka: {
+        "about": "შესახებ",
+        "history": "ისტორია",
+        "church": "კვირიკეწმინდის ეკლესია",
+        "demographics": "დემოგრაფია",
+        "gallery": "გალერეა",
+        "map": "რუკა",
+        "about-text": "კვირიკეწმინდა (ყოფ. კორტი) — სოფელი საქართველოში, რაჭა-ლეჩხუმისა და ქვემო სვანეთის მხარის ამბროლაურის მუნიციპალიტეტში (ველევის თემი). მდებარეობს რაჭის ქედის ჩრდილოეთ კალთაზე, მდინარე ხოტეურის ხეობაში. ზღვის დონიდან 1040 მეტრი, ამბროლაურიდან 8 კილომეტრი.",
+        "history-text": "სოფლის ისტორია ძველი და საინტერესოა. იგი მდებარეობს რაჭის ისტორიულ რეგიონში, რომელიც ცნობილია თავისი უნიკალური კულტურით და ტრადიციებით. სოფელში შემონახულია ძველი ნაგებობები და ეკლესიები, რომლებიც მოგვითხრობენ რეგიონის მდიდარ ისტორიაზე.",
+        "church-text": "კვირიკეწმინდის წმინდა კვირიკესა და ივლიტეს ეკლესია არის სამნავიანი ბაზილიკა, რომელიც აგებულია IX-X საუკუნეებში. ეკლესია ნაგებია თლილი ქვით და კირისაგან. მისი ზომებია 9,25 მეტრი სიგრძეში და 6,4 მეტრი სიგანეში. ეკლესიას აქვს სამი შესასვლელი: სამხრეთით, დასავლეთით და აღმოსავლეთით. ეკლესიის სამხრეთ კედელზე გამოსახულია ჯვარი, რომელიც გარშემორტყმულია ხუცური წარწერებით.",
+        "year": "აღწერის წელი",
+        "population": "მოსახლეობა",
+        "male": "კაცი",
+        "female": "ქალი",
+        "footer": "© 2025 კვირიკეწმინდა (ყოფ. კორტი). ყველა უფლება დაცულია."
+      }
+    };
+
+    let currentLang = 'ka'; // Default language is Georgian
+
+    // Function to translate the page
+    function translatePage(lang) {
+      const elements = document.querySelectorAll('[data-translate]');
+      elements.forEach(element => {
+        const key = element.getAttribute('data-translate');
+        if (translations[lang][key]) {
+          element.textContent = translations[lang][key];
+        }
+      });
+    }
+
+    // Toggle language on button click
+    const translateBtn = document.getElementById('translate-btn');
+    translateBtn.addEventListener('click', () => {
+      currentLang = currentLang === 'ka' ? 'en' : 'ka';
+      translatePage(currentLang);
+      translateBtn.textContent = currentLang === 'ka' ? 'EN' : 'KA';
+    });
+
     // Burger menu functionality
     const burgerMenu = document.querySelector('.burger-menu');
     const navLinks = document.querySelector('.nav-links');
